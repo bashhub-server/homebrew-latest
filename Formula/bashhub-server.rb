@@ -1,5 +1,5 @@
-class Proxi < Formula
-  desc "Scrapes, checks and stores bashhub-serveres with a rest api for querying results."
+class Bashhub-server < Formula
+  desc "privately hosted open source server for bashhub-client https://github.com/rcaloras/bashhub-client"
   homepage ""
   version "0.1.0"
   bottle :unneeded
