@@ -6,11 +6,11 @@ class BashhubServer < Formula
 
   if OS.mac?
     url "https://github.com/nicksherron/bashhub-server/releases/download/v0.1.1/bashhub-server_v0.1.1_darwin_amd64.tar.gz"
-    sha256 "a8079e5d4eb261abafa2e4acc12cea83479e5e55d1730d99bee2fce5dc15bf39"
+    sha256 "5ce64686654165948658e8dfca76a7a795389c8db3471530418958a4bccadd30"
   elsif OS.linux?
     if Hardware::CPU.intel?
       url "https://github.com/nicksherron/bashhub-server/releases/download/v0.1.1/bashhub-server_v0.1.1_linux_amd64.tar.gz"
-      sha256 "ecba7dfcecea435c6ceb90a811f8f386bbcfa5ef08d854241e6032a788917b4c"
+      sha256 "9976343bf25a66d3e1c8526bffe51362944cd94ee7b254b7294589be3e73f35e"
     end
   end
 
