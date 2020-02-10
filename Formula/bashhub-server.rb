@@ -1,4 +1,4 @@
-class Bashhub-server < Formula
+class BashhubServer < Formula
   desc "privately hosted open source server for bashhub-client https://github.com/rcaloras/bashhub-client"
   homepage ""
   version "0.1.0"
