@@ -1,5 +1,7 @@
 #! /usr/bin/env zsh
 
+set -eou pipefail
+
 url="https://api.github.com/repos/nicksherron/bashhub-server/releases/latest"
 
 new_version=$(curl -s $url |  awk '/tag_name/{gsub("v","",$2); gsub(",","",$2); print "version", $2}')
