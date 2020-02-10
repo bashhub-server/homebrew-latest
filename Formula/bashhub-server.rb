@@ -1,16 +1,16 @@
 class Proxi < Formula
   desc "Scrapes, checks and stores bashhub-serveres with a rest api for querying results."
   homepage ""
-  version "0.1.7"
+  version "0.1.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/nicksherron/bashhub-server/releases/download/v0.1.7/bashhub-server_v0.1.7_darwin_amd64.tar.gz"
-    sha256 "f9526b860833384dbd8860fc7e67a79511aeb5ab366872b03a379b4225a23880"
+    url "https://github.com/nicksherron/bashhub-server/releases/download/v0.1.0/bashhub-server_v0.1.0_darwin_amd64.tar.gz"
+    sha256 "c81cb924f330f53351c7864be16ff77c7ade2a26491f80ae3f51cffcae304721"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/nicksherron/bashhub-server/releases/download/v0.1.7/bashhub-server_v0.1.7_linux_amd64.tar.gz"
-      sha256 "e1d0fc168af23c58a41d2f324fc2e569e0560b654f6cb2e6ef49bfb46bfd8830"
+      url "https://github.com/nicksherron/bashhub-server/releases/download/v0.1.0/bashhub-server_v0.1.0_linux_amd64.tar.gz"
+      sha256 "08ac1a7b3f20a9e93b3ff013872cb1fc7977fb8de84a0459177f87aee284a757"
     end
   end
 
