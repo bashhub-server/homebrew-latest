@@ -1,16 +1,16 @@
 class BashhubServer < Formula
   desc "privately hosted open source server for bashhub-client https://github.com/rcaloras/bashhub-client"
   homepage ""
-  version "0.1.0"
+  version "0.1.1"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/nicksherron/bashhub-server/releases/download/v0.1.0/bashhub-server_v0.1.0_darwin_amd64.tar.gz"
-    sha256 "c81cb924f330f53351c7864be16ff77c7ade2a26491f80ae3f51cffcae304721"
+    url "https://github.com/nicksherron/bashhub-server/releases/download/v0.1.1/bashhub-server_v0.1.1_darwin_amd64.tar.gz"
+    sha256 "a8079e5d4eb261abafa2e4acc12cea83479e5e55d1730d99bee2fce5dc15bf39"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/nicksherron/bashhub-server/releases/download/v0.1.0/bashhub-server_v0.1.0_linux_amd64.tar.gz"
-      sha256 "08ac1a7b3f20a9e93b3ff013872cb1fc7977fb8de84a0459177f87aee284a757"
+      url "https://github.com/nicksherron/bashhub-server/releases/download/v0.1.1/bashhub-server_v0.1.1_linux_amd64.tar.gz"
+      sha256 "ecba7dfcecea435c6ceb90a811f8f386bbcfa5ef08d854241e6032a788917b4c"
     end
   end
 
