@@ -1,6 +1,6 @@
 #! /usr/bin/env zsh
 
-set -eou pipefail
+set -eo pipefail
 
 url="https://api.github.com/repos/nicksherron/bashhub-server/releases/latest"
 
