@@ -2,7 +2,6 @@ class BashhubServer < Formula
   desc "privately hosted open source server for bashhub-client https://github.com/rcaloras/bashhub-client"
   homepage ""
   version "0.2.4"
-  bottle :unneeded
 
   if OS.mac?
     url "https://github.com/nicksherron/bashhub-server/releases/download/v0.2.4/bashhub-server_v0.2.4_darwin_amd64.tar.gz"
